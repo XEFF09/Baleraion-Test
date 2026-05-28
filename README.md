@@ -1,6 +1,7 @@
 # Project Description
 
-This project is a simple thai text decimal converter.
+This project is a simple Thai Baht text converter implemented in Go.  
+It converts decimal numbers into Thai text representation with proper Baht and Satang currency formatting.
 
 ## Technology Stack
 
