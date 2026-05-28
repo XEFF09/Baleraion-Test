@@ -61,7 +61,7 @@ func (d decimal) _convert(n int) string {
 		switch pos {
 		// avoid "หนึ่ง" in ending digits of 10s
 		case 0:
-			if num == 1 && length > 1 {
+			if num == 1 && length > 1 && nums[length-2] != 0 {
 				res += "เอ็ด"
 			} else {
 				res += d.numbers[num]
