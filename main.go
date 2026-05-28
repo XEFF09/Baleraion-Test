@@ -14,6 +14,6 @@ func main() {
 	for _, input := range inputs {
 		fmt.Println(input)
 		// convert decimal to thai text (baht) and print the result here
-		fmt.Println(input)
+		fmt.Println(input.ToTHB())
 	}
 }
